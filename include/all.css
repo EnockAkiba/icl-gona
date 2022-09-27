@@ -1,0 +1,58 @@
+
+.fo{
+    display: flex;
+    position: relative;
+    height: 45px;
+}
+.fo .resultat{
+    height: 45px;
+  padding: 15px;
+}
+.fo button{
+    margin-right: 29px;
+}
+.tb{
+    height: 65vh;
+    z-index: 111;
+    overflow: auto;
+    background: rgba(0, 0, 0, 0.164);
+    margin-top: 10px;
+}
+.tb .tt{
+    display: flex;
+    justify-content: space-between;
+}
+.tb .table{
+    margin-top: 10px;
+}
+.tb .table thead{
+    background: rgb(69, 108, 150);
+}
+.tb .table thead tr th{
+    color: rgba(255, 255, 255, 0.922);
+    font-weight: 100;
+}
+.login{
+    top: 15%;
+    right: 40%;
+    box-shadow:1px 1px 5px black ;
+}
+
+.login .eleve .group-form{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin: 10px 0;
+}
+
+.login .eleve .titre{
+    display: flex;
+    justify-content: space-between;
+}
+.login .eleve .titre a{
+    margin: 5px;
+}
+.login .eleve .group-form .item{
+    width: 48%;
+    margin:10px 0;
+}
